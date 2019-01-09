@@ -1,7 +1,9 @@
 ##############################################################################
 ### Should be g++ from gcc 4.9 (put the full path in if it is not default) ###
 ##############################################################################
-CC=g++
+# sudo apt-get install gcc-4.9
+# sudo apt-get install gcc-4.9-plugin-dev
+CC=/usr/bin/g++-4.9
 ##############################################################################
 
 CCPLUGINS_DIR = $(shell $(CC) -print-file-name=plugin)
